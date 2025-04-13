@@ -1,0 +1,16 @@
+{
+  "name": "smart-notes",
+  "version": "1.0.0",
+  "description": "A modern note-taking application",
+  "scripts": {
+    "start": "serve public",
+    "build": "cp -r public/* .vercel/output/static/",
+    "dev": "serve public"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
