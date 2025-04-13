@@ -39,7 +39,7 @@ function displayNotes(filteredNotes = null) {
         const editBtn = document.createElement('button');
         editBtn.className = 'btn btn-primary';
         editBtn.textContent = 'Edit';
-        editBtn.onclick = () => window.location.href = `/note?id=${note.id}`;
+        editBtn.onclick = () => window.location.href = `note.html?id=${note.id}`;
 
         const deleteBtn = document.createElement('button');
         deleteBtn.className = 'btn btn-danger';
